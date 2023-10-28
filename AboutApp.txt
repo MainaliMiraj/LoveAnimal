@@ -1,0 +1,1 @@
+This is a small react app i did in my learing process. inside the app when you click add animal now animal will be added randomly and by clicking on that animal you like you can give heart to it.
