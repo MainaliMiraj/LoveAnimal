@@ -15,9 +15,16 @@ function App() {
     return <AnimalShow type={animal} key={index} />;
   });
   return (
-    <div className='app'>
-      <button onClick={handleClick} className='btn'>Add Animal</button>
-      <div className='animal-list'>{renderedAnimals} </div>
+    <div className="app">
+      <button onClick={handleClick} className="btn">
+        Add Animal
+      </button>
+      <div className="animal-list">{renderedAnimals} </div>
+      <div className="footer">By:
+        <a href="https://github.com/MainaliMiraj" target="blank">
+          Miraj Mainali
+        </a>
+      </div>
     </div>
   );
 }
