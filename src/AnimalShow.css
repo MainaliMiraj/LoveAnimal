@@ -1,0 +1,26 @@
+.btn{
+    background-color: bisque;
+    height: 30px;
+    width: 100px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+.animal-show{
+    position: relative;
+    border: 1px solid brown;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0px 3px 4px lightcoral;
+}
+.animal{
+    height: 200px;
+}
+.heart{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
